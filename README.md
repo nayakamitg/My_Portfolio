@@ -79,9 +79,7 @@ Here are some of the exciting projects I’ve worked on:
 
 ## 💬 Let's Connect!
 
-- ✉️ **Email:** anubhavchaturvedi123@gmail.com
-- 🌐 **LinkedIn:** [Anubhav Chaturvedi](https://www.linkedin.com/in/anubhavchaturvedi/)
-- 🐦 **Twitter:** [@Anubhav_Chatur](https://twitter.com/Anubhav_Chatur)
+- 🐦 **Twitter:** [@Anubhav_Chatu](https://twitter.com/Anubhav_Chatu)
 
 Feel free to reach out for collaborations, open-source contributions, or just to chat about tech! 🚀
 

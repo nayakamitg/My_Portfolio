@@ -2,6 +2,9 @@
 
 Welcome to my portfolio! 🚀 I am Anubhav Chaturvedi, a passionate **Software Engineer** focused on **AI**, **Machine Learning**, and **Full-Stack Development**. Here, you’ll find my work, projects, and the technologies I use to create impactful solutions.
 
+![image](https://github.com/user-attachments/assets/55877e19-1db3-47d8-b608-a40f8ec8750d)
+
+
 🌐 Check out my live portfolio:
 - [Anubhav Chaturvedi Portfolio](https://anubhav-chaturvedi.netlify.app/)
 - [GitHub - Pro Portfolio](https://github.com/AnubhavChaturvedi-GitHub/Pro-Portfolio)

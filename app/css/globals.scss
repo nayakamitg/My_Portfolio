@@ -12,6 +12,11 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;
@@ -31,6 +36,18 @@ body {
 
 #sticky-card-4 {
   --index: 4;
+}
+#sticky-card-5 {
+  --index: 5;
+}
+#sticky-card-6 {
+  --index: 6;
+}
+#sticky-card-7 {
+  --index: 7;
+}
+#sticky-card-8 {
+  --index: 8;
 }
 
 .sticky-card {

@@ -10,7 +10,6 @@ import Skills from "./components/homepage/skills";
 
 async function getData() {
   const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
-
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }
@@ -31,9 +30,10 @@ export default async function Home() {
       <AboutSection />
       <Experience />
       <Skills />
-      <Projects />
+      <Projects title={"PROJECTS"} from={0} to={4} />
+      <Projects title={"OTHER PROJECTS"} from={4} to={8} />
       <Education />
-      <Blog blogs={blogs} />
+      {/* <Blog blogs={blogs} /> */}
       <ContactSection />
     </>
   )

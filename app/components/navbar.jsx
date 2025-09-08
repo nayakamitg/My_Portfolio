@@ -10,7 +10,7 @@ function Navbar() {
           <Link
             href="/"
             className=" text-[#16f2b3] text-3xl font-bold">
-            Anubhav Chaturvedi
+            Amit kumar
           </Link>
         </div>
 

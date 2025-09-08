@@ -9,6 +9,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 import { useState } from 'react';
+import { toast } from 'react-toastify';
+import { SiLeetcode } from 'react-icons/si';
 
 function ContactSection() {
   const [formData, setFormData] = useState({
@@ -35,7 +37,7 @@ function ContactSection() {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "c9f062d1-6490-4bce-b97d-707b630368b9", // Replace with your actual access key
+          access_key: "5a1656eb-6291-48a5-91db-a67b3c2a02ef", // Replace with your actual access key
           name: formData.name,
           email: formData.email,
           message: formData.message,
@@ -43,6 +45,7 @@ function ContactSection() {
       });
       const result = await response.json();
       if (result.success) {
+        toast.success("Message sent successfully!")
         setSuccessMessage("Message sent successfully!");
         setFormData({ name: '', email: '', message: '' }); // Clear the form
       } else {
@@ -55,9 +58,13 @@ function ContactSection() {
       setIsSubmitting(false); // Set loading state to false
     }
   };
+  // className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
 
   return (
-    <div id="contact" className="my-12 lg:my-16 relative mt-24 text-white">
+    <div id="contact" className="my-12 lg:my-16 relative mt-24 text-white border-t bg-[#0d1224] border-[#353951]">
+        <div className="flex justify-center -z-40 p-5">
+          <div className="absolute top-0 h-[1px] w-1/2  bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
+        </div>
       <div className="hidden lg:flex flex-col items-center absolute top-24 -right-8">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
           CONTACT
@@ -159,17 +166,13 @@ function ContactSection() {
                 size={48}
               />
             </Link>
-            <Link target="_blank" href={personalData.stackOverflow}>
-              <FaStackOverflow
+           
+            <Link target="_blank" href={personalData.leetcode}>
+              <SiLeetcode
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}
               />
-            </Link>
-            <Link target="_blank" href={personalData.facebook}>
-              <FaFacebook
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
-              />
+              
             </Link>
           </div>
         </div>

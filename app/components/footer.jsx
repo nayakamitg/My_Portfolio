@@ -12,9 +12,9 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © Developer Portfolio by <Link target="_blank" href="https://www.youtube.com/@NetHyTech" className="text-[#16f2b3]">Anubhav Chaturvedi</Link>
+            © Developer Portfolio by <span className="text-[#16f2b3]">Amit kumar</span>
           </p>
-          <div className="flex items-center gap-5">
+          {/* <div className="flex items-center gap-5">
             <Link
               target="_blank"
               href="https://www.youtube.com/@NetHyTech"
@@ -31,7 +31,7 @@ function Footer() {
               <CgGitFork />
               <span>Fork</span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div >

@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2021 - 2025",
-    institution: "Jain University",
+    title: "Bachelor Degree (B.Tech)",
+    duration: "2022 - 2025",
+    institution: "Kanpur Institute Of Technology, Kanpur, UP, India",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2019 - 2021",
-    institution: "Saraswati Higher Secondary School",
+    title: "Diploma Certificate",
+    duration: "2020 - 2022",
+    institution: "Government Polytechnic Fatehpur, UP, India",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2007 - 2019",
-    institution: "Saraswati Higher Secondary School",
+    title: "Intermediate",
+    duration: "2019-2020",
+    institution: "Saraswati Vidya Mandir VIP Road Fatehpur, UP, India",
   }
 ]

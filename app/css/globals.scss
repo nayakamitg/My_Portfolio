@@ -31,11 +31,17 @@ html {
   box-shadow: 0px 0px 0px 100000vh black;
   border-radius: 10px;
 }
-body {
+html {
+   @apply cursor-default;
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;
 }
-
+a, button {
+  @apply cursor-pointer;
+}
+input, textarea, select,label {
+  @apply cursor-default;
+}
 #sticky-card-1 {
   --index: 1;
 }

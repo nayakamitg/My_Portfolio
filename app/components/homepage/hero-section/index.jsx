@@ -3,6 +3,7 @@
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
@@ -36,14 +37,14 @@ function HeroSection() {
             <Link
               href={personalData.github}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-pink-500 hover:scale-125 duration-200"
             >
               <BsGithub size={30} />
             </Link>
             <Link
               href={personalData.linkedIn}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-pink-500 hover:scale-125 duration-200"
             >
               <BsLinkedin size={30} />
             </Link>
@@ -51,14 +52,14 @@ function HeroSection() {
             <Link
               href={personalData.leetcode}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-pink-500 hover:scale-125 duration-200"
             >
               <SiLeetcode size={30} />
             </Link>
             <Link
               href={personalData.twitter}
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-pink-500 hover:scale-125 duration-200"
             >
               <FaTwitterSquare size={30} />
             </Link>
@@ -183,6 +184,7 @@ function HeroSection() {
         </div>
             </Tilt>
       </div>
+     
     </section>
   );
 };

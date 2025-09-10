@@ -61,7 +61,7 @@ function ContactSection() {
   // className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
 
   return (
-    <div id="contact" className="my-12 lg:my-16 relative mt-24 text-white border-t bg-[#0d1224] border-[#353951]">
+    <div id="contact" className="my-12 lg:my-16 relative mt-24 text-white border-t border-[#353951]">
         <div className="flex justify-center -z-40 p-5">
           <div className="absolute top-0 h-[1px] w-1/2  bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
         </div>

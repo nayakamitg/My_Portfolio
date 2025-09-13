@@ -7,7 +7,7 @@ import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
 import ScrollToTop from "./components/helper/scroll-to-top";
-import { ParticlesContainer } from "./components/helper/ParticleMy";
+import ParticlesContainer from "./components/helper/ParticleWrapper";
 import MyLenis from "./components/helper/MyLenis";
 const inter = Inter({ subsets: ["latin"] });
 

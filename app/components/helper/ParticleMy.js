@@ -1,24 +1,34 @@
-
 "use client";
 
 import React from "react";
-import Particles from "react-particles";
-import { Background, Engine } from "tsparticles-engine";
-import { loadFirePreset } from "tsparticles-preset-fire";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { useEffect, useMemo, useState } from "react";
+import { loadFirePreset } from "@tsparticles/preset-fire";
 
-export class ParticlesContainer extends React.PureComponent {
-  // this customizes the component tsParticles installation
- customInit=async(engine=Engine)=> {
-    // this adds the preset to tsParticles, you can safely use the
-    await loadFirePreset(engine);
-  }
+export default function ParticlesContainer() {
+  const [init, setInit] = useState(false);
 
-  render() {
-    const options = {
+  // initialize the engine
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadFirePreset(engine); // load the fire preset
+    }).then(() => {
+      setInit(true);
+    });
+  }, []);
+
+  // your fire preset options
+  const options = useMemo(
+    () => ({
       preset: "fire",
-      Background:"pink"
-    };
+      background: {
+        color: "pink", // background color must be an object, not string
+      },
+    }),
+    []
+  );
 
-    return <Particles options={options} init={this.customInit} />;
-  }
+  if (!init) return null;
+
+  return <Particles id="tsparticles" options={options} />;
 }

@@ -1,95 +1,116 @@
-# 👨‍💻 Anubhav Chaturvedi's Developer Portfolio
+# 👨‍💻 Amit Kumar — Full Stack .NET Developer  
 
-Welcome to my portfolio! 🚀 I am Anubhav Chaturvedi, a passionate **Software Engineer** focused on **AI**, **Machine Learning**, and **Full-Stack Development**. Here, you’ll find my work, projects, and the technologies I use to create impactful solutions.
+Welcome to my portfolio! 🚀  
+I’m **Amit Kumar**, a passionate **Full Stack .NET Developer** specializing in **React.js** and **.NET Core Web API**, with experience in **building scalable web applications** and **AI-powered solutions**.  
 
-![image](https://github.com/user-attachments/assets/55877e19-1db3-47d8-b608-a40f8ec8750d)
+Here, you’ll find my projects, skills, and the technologies I use to create impactful applications.  
 
-
-🌐 Check out my live portfolio:
-- [Anubhav Chaturvedi Portfolio](https://anubhav-chaturvedi.netlify.app/)
-- [GitHub - Pro Portfolio](https://github.com/AnubhavChaturvedi-GitHub/Pro-Portfolio)
-
----
-
-## 📖 About Me
-
-- 🧑‍💻 **Current Focus:** Building intelligent systems, working on **AI-powered applications** and **full-stack web development**.
-- 📚 **Learning:** Continuously exploring new **technologies**, improving my skills in **Python**, **TensorFlow**, **PyTorch**, **React**, and more.
-- 🎥 **YouTube Channel:** [Anubhav Chaturvedi](https://www.youtube.com/channel/UCzQwWwpTnVOu8zKfPTrQw2A) – 5.5K Subscribers, focusing on **AI**, **Software Engineering**, and **Tech Tutorials**.
+🌐 **Live Portfolio:**  
+- [Portfolio Website](https://my-portfolio-nine-ruddy-cmb6wltj2i.vercel.app/)  
+- [GitHub](https://github.com/nayakamitg)  
+- [LinkedIn](https://www.linkedin.com/in/amit-kumar37)  
 
 ---
 
-## 🚀 Projects
+## 📖 About Me  
 
-Here are some of the exciting projects I’ve worked on:
-
-### 1. **Jarvis AI Assistant**
-- A **speech-to-text** powered **AI assistant** capable of performing tasks, answering questions, and much more.
-- Technologies: **Python**, **TensorFlow**, **PyTorch**, **Speech Recognition**.
-
-### 2. **AI Resume Generator**
-- An **AI-powered resume generator** using machine learning to craft perfect resumes.
-- Technologies: **Python**, **Natural Language Processing**, **React**.
-
-### 3. **NetHyTech-OpenSource**
-- A coding blog platform built using **Next.js**, showcasing open-source projects and tutorials.
-- Technologies: **Next.js**, **JavaScript**, **CSS**.
+- 🧑‍💻 **Current Focus:** Full-Stack Development with **React.js** & **.NET Core Web API**.  
+- 📚 **Learning:** Advanced **Dapper**, **System Design**, and **Python for AI/ML**.  
+- 🎯 **Experience:** 1+ years of hands-on development in modern web apps.  
 
 ---
 
-## 💻 Technologies & Tools
+## 🚀 Projects  
 
-| Technology          | 💼 Experience | 🔧 Usage                                    |
-|---------------------|---------------|---------------------------------------------|
-| **Python**          | ⭐⭐⭐⭐⭐         | Backend development, Machine Learning      |
-| **JavaScript**      | ⭐⭐⭐⭐          | Frontend development, Node.js              |
-| **React**           | ⭐⭐⭐⭐          | Building interactive UIs                   |
-| **TensorFlow**      | ⭐⭐⭐⭐          | AI & ML models                              |
-| **PyTorch**         | ⭐⭐⭐⭐          | Deep Learning                              |
-| **SQL**             | ⭐⭐⭐⭐          | Database Management, Query Optimization    |
-| **PySpark**         | ⭐⭐⭐⭐          | Big Data Processing                        |
-| **HTML/CSS**        | ⭐⭐⭐⭐⭐         | Web Design, UI/UX                          |
-| **Git**             | ⭐⭐⭐⭐⭐         | Version Control, Collaboration             |
-| **Docker**          | ⭐⭐⭐⭐          | Containerization                           |
-| **AWS**             | ⭐⭐⭐⭐          | Cloud Services                             |
-| **MongoDB**         | ⭐⭐⭐⭐          | NoSQL Database                             |
-| **VSCode**          | ⭐⭐⭐⭐⭐         | IDE for coding and development             |
+### 🔹 Employees Task Management WebTool *(In Progress)*  
+- Role-based task management (Admin, Manager, Employee) with **JWT authentication**.  
+- **Tech:** React, Redux Toolkit, Context API, .NET Core Web API, MS SQL, Dapper  
 
----
+### 🔹 MFN Website (Missing Found Network)  
+- Platform to **Add, Show, Manage & Report** missing persons and found deceased cases.  
+- **Tech:** React (Hooks)  
 
-## 🧑‍💻 Skills
+### 🔹 Car Rental Website  
+- Responsive car rental platform with search, listing, and owner contact features.  
+- Deployed on **Hostinger** for public access.  
+- **Tech:** React (Hooks)  
 
-- **Software Engineering**: Full-Stack Development, Agile Development, System Design
-- **Artificial Intelligence & Machine Learning**: Model Development, Neural Networks, NLP, AI applications
-- **Web Development**: React.js, Node.js, REST APIs, Responsive Design
-- **Data Science**: Data Analysis, Data Visualization, Data Cleaning, Machine Learning Algorithms
+### 🔹 Face Recognition Attendance System  
+- Upload images via React frontend, identify faces using **Python face_recognition**.  
+- **Tech:** React.js, Python, FastAPI, Axios  
+
+### 🔹 Task Manager App (Todo App)  
+- CRUD operations with backend storage in **MS SQL** using APIs.  
+- **Tech:** React, Context API, .NET Core Web API  
 
 ---
 
-## 🛠️ Tools & Software
+## 💻 Technologies & Tools  
 
-- **VS Code** - My primary development environment 💻
-- **GitHub** - For code collaboration and version control 🧑‍💻
-- **Figma** - UI/UX Design for beautiful user interfaces 🎨
-- **AWS** - For cloud deployment ☁️
-- **Docker** - Containerization and environment management 🐳
-- **Postman** - API testing and documentation 📡
-
----
-
-## 💬 Let's Connect!
-
-- 🐦 **Twitter:** [@Anubhav_Chatu](https://twitter.com/Anubhav_Chatu)
-
-Feel free to reach out for collaborations, open-source contributions, or just to chat about tech! 🚀
-
----
-
-## 📂 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+| Technology      | ⭐ Experience | 🔧 Usage                               |
+|-----------------|--------------|----------------------------------------|
+| **C# / .NET**   | ⭐⭐⭐⭐         | Backend APIs, Authentication, Dapper   |
+| **React.js**    | ⭐⭐⭐⭐         | Frontend SPAs, Hooks, Context API      |
+| **Redux Toolkit** | ⭐⭐⭐⭐       | State Management                       |
+| **Python**      | ⭐⭐⭐          | AI/ML, Automation, Face Recognition    |
+| **SQL (MS SQL, MySQL, SQLite)** | ⭐⭐⭐⭐ | DB Design, Queries, Optimization |
+| **FastAPI**     | ⭐⭐⭐          | Python APIs                            |
+| **HTML/CSS/JS** | ⭐⭐⭐⭐⭐        | Web Design, UI/UX                      |
+| **Git/GitHub**  | ⭐⭐⭐⭐⭐        | Version Control, Collaboration         |
+| **Postman**     | ⭐⭐⭐⭐         | API Testing                            |
+| **Docker**      | ⭐⭐⭐          | Containerization                       |
+| **Figma**       | ⭐⭐⭐          | UI/UX Prototyping                      |
 
 ---
 
-Thank you for visiting my portfolio! ✨
+## 🧑‍💻 Skills  
 
+- **Software Engineering:** Full-Stack Development, Agile Development, System Design  
+- **Web Development:** React.js, Redux, Context API, .NET Core Web API, REST APIs  
+- **Database:** MS SQL, MySQL, SQLite with Dapper optimization  
+- **AI/ML (Basics):** Python, Face Recognition, NumPy, Matplotlib, Scikit-learn  
+
+---
+
+## 💼 Internship  
+
+**Full-Stack Developer — Dishaayein Technology**  
+📅 Jun 2024 – Present  
+
+- Built scalable SPAs using **React.js + Redux Toolkit**, improving load time by 30%.  
+- Created **.NET Core Web APIs** for backend logic & database integration.  
+- Integrated dynamic components with **REST APIs**, optimized performance with `React.memo` & lazy loading.  
+- Implemented **JWT authentication & role-based access control**.  
+
+---
+
+## 🎓 Education  
+
+**B. Tech in Computer Science and Engineering**  
+Kanpur Institute of Technology, Kanpur, India  
+📅 Expected Completion: 2025  
+
+---
+
+## 📜 Certifications  
+
+- 🏅 Top 5 finish in college coding contest on **HackerRank**  
+- 🎯 Consistently in the **top 2%** for academic coding assessments  
+
+---
+
+## 💬 Connect With Me  
+
+- 🌐 Portfolio: [my-portfolio](https://my-portfolio-nine-ruddy-cmb6wltj2i.vercel.app/)  
+- 💼 LinkedIn: [Amit Kumar](https://www.linkedin.com/in/amit-kumar37)  
+- 🐙 GitHub: [nayakamitg](https://github.com/nayakamitg)  
+
+---
+
+## 📂 License  
+
+Distributed under the **MIT License**. See `LICENSE` for details.  
+
+---
+
+✨ *Thanks for visiting my portfolio!* 🚀  
